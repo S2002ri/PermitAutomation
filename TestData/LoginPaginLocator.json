@@ -1,0 +1,11 @@
+{
+  "ChatBotIcon": "img.chatbot-btn-avatar",
+  "GreetingMessage": "#councilBasedWelcomeMessage",
+  "FirstName": "#user-first-name",
+  "LastName": "#user-lastname",
+  "MobileNo": "#user-mobilenumber",
+  "SubmitButton": "#btn-user-submit",
+  "MainCardOptions": "#menuCard0",  
+  "CheckParkingStreetCardButton": "button.btn.msg-ans-btn[data-template-name=\"Check Parking Streets\"]",
+  "CheckParkingStreetCardContent": "button.btn.msg-ans-btn[data-template-name=\"Check Parking Streets\"]"
+}

@@ -1,0 +1,61 @@
+{
+  "userDetails": {
+    "firstName": "Maximiliano",
+    "lastName": "Eswaran",
+    "mobileNo": "8072424475"
+  },
+  "councils": [
+    {
+      "name": "Wokingham",
+      "run": false,
+      "url": "https://mia.permit.marstonholdings.co.uk/C1CA422B-A4CC-4B26-B9FD-4280CD69E743",
+      "files": {
+        "permit": "TestData/Wokinhampermit.xlsx",
+        "zones": "TestData/ResidentialZones.xlsx",
+        "status": "TestData/PermitStatus.xlsx",
+        "queries": "TestData/GeneralQueries.xlsx",
+        "testData": "TestData/TestData.xlsx",
+        "testCases": "TestData/TestCases.xlsx"
+      }
+    },
+    {
+      "name": "Surrey",
+      "run": false,
+      "url": "https://cai-permitchatbot-ui-test.azurewebsites.net/894F4105-4992-47B8-9DCA-85D02698022B",
+      "files": {
+        "permit": "TestData/Surreypermit.xlsx",
+        "zones": "TestData/Surrey_residentialzones.xlsx",
+        "status": "TestData/Surrey_permitstatus.xlsx",
+        "queries": "TestData/Surrey_generalqueries.xlsx",
+        "testData": "TestData/Surrey_TestData.xlsx",
+        "testCases": "TestData/Surrey_TestCases.xlsx"
+      }
+    },
+    {
+      "name": "Bracknell Forest",
+      "run": true,
+      "url": "https://cai-permitchatbot-ui-test.azurewebsites.net/8670428E-684E-4F64-ABF5-942AE691A52A",
+      "files": {
+        "permit": "TestData/Bracknellpermit.xlsx",
+        "zones": "TestData/Bracknell_residentialzones.xlsx",
+        "status": "TestData/Bracknell_permitstatus.xlsx",
+        "queries": "TestData/Bracknell_generalqueries.xlsx",
+        "testData": "TestData/Bracknell_TestData.xlsx",
+        "testCases": "TestData/Bracknell_TestCases.xlsx"
+      }
+    },
+    {
+      "name": "Warwickshire",
+      "run": false,
+      "url": "https://cai-permitchatbot-ui-test.azurewebsites.net/79BCF372-49BC-4CA2-9B7C-61741D225B43",
+      "files": {
+        "permit": "TestData/Warwickshirepermit.xlsx",
+        "zones": "TestData/Warwickshire_residentialzones.xlsx",
+        "status": "TestData/Warwickshire_permitstatus.xlsx",
+        "queries": "TestData/Warwickshire_generalqueries.xlsx",
+        "testData": "TestData/Warwickshire_TestData.xlsx",
+        "testCases": "TestData/Warwickshire_TestCases.xlsx"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Build folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Test Reports (optional)
+*.html

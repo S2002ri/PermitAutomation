@@ -1,0 +1,4 @@
+{
+  "CheckParkingStreetCardButton": "button.btn.msg-ans-btn[data-template-name=\"Check Parking Streets\"]",
+  "CheckParkingStreetCardContent": ".ac-container"
+}

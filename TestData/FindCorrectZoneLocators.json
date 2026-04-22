@@ -1,0 +1,5 @@
+{
+  "FindCorrectZoneCardButton": "#menuCard2",
+  "FindCorrectZoneCardContent": ".ac-container",
+  "FindCorrectZoneTextField": "#txt_Chat"
+}

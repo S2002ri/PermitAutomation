@@ -1,0 +1,1168 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">18-03-2026 16:57:45</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="97"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 1 – Permit Details > Apply for Permit</p>
+            <p class="text-sm">
+              <span>16:58:40</span> / <span>0h:0m:8s+293ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 1 – Permit Details > Apply for Permit</h5>
+                  <span class='badge badge-success'>18-03-2026 16:58:40</span>
+                  <span class='badge badge-danger'>18-03-2026 16:58:49</span>
+                  <span class='badge badge-default'>0h:0m:8s+293ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=97</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 16:58:49</td>
+        <td>
+Menu: Permit Details | Submenu: Apply for Permit | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="98"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 2 – Permit Details > Required Documents for Permit Application</p>
+            <p class="text-sm">
+              <span>16:59:08</span> / <span>0h:0m:8s+303ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 2 – Permit Details > Required Documents for Permit Application</h5>
+                  <span class='badge badge-success'>18-03-2026 16:59:08</span>
+                  <span class='badge badge-danger'>18-03-2026 16:59:16</span>
+                  <span class='badge badge-default'>0h:0m:8s+303ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=98</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 16:59:16</td>
+        <td>
+Menu: Permit Details | Submenu: Required Documents for Permit Application | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="99"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 3 – Account Management > I forgot my username and password. What now?</p>
+            <p class="text-sm">
+              <span>16:59:35</span> / <span>0h:0m:8s+230ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 3 – Account Management > I forgot my username and password. What now?</h5>
+                  <span class='badge badge-success'>18-03-2026 16:59:35</span>
+                  <span class='badge badge-danger'>18-03-2026 16:59:44</span>
+                  <span class='badge badge-default'>0h:0m:8s+230ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=99</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 16:59:44</td>
+        <td>
+Menu: Account Management | Submenu: I forgot my username and password. What now? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="100"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 4 – Payment & Fee > How do I  Pay for my permit?</p>
+            <p class="text-sm">
+              <span>17:00:03</span> / <span>0h:0m:8s+262ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 4 – Payment & Fee > How do I  Pay for my permit?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:00:03</span>
+                  <span class='badge badge-danger'>18-03-2026 17:00:11</span>
+                  <span class='badge badge-default'>0h:0m:8s+262ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=100</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:00:11</td>
+        <td>
+Menu: Payment & Fee | Submenu: How do I  Pay for my permit? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="101"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 5 – Permit Details > How do I change my vehicle on the permit?</p>
+            <p class="text-sm">
+              <span>17:00:30</span> / <span>0h:0m:8s+264ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 5 – Permit Details > How do I change my vehicle on the permit?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:00:30</span>
+                  <span class='badge badge-danger'>18-03-2026 17:00:39</span>
+                  <span class='badge badge-default'>0h:0m:8s+264ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=101</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:00:39</td>
+        <td>
+Menu: Permit Details | Submenu: How do I change my vehicle on the permit? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="102"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 6 – Permit Details > Proof for New Residents</p>
+            <p class="text-sm">
+              <span>17:00:58</span> / <span>0h:0m:8s+401ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 6 – Permit Details > Proof for New Residents</h5>
+                  <span class='badge badge-success'>18-03-2026 17:00:58</span>
+                  <span class='badge badge-danger'>18-03-2026 17:01:06</span>
+                  <span class='badge badge-default'>0h:0m:8s+401ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=102</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:01:06</td>
+        <td>
+Menu: Permit Details | Submenu: Proof for New Residents | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="103"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 7 – General > Do you have an app?</p>
+            <p class="text-sm">
+              <span>17:01:26</span> / <span>0h:0m:8s+531ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 7 – General > Do you have an app?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:01:26</span>
+                  <span class='badge badge-danger'>18-03-2026 17:01:35</span>
+                  <span class='badge badge-default'>0h:0m:8s+531ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=103</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:01:35</td>
+        <td>
+Menu: General | Submenu: Do you have an app? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="104"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 8 – Permit Details > Will I get a renewal reminder?</p>
+            <p class="text-sm">
+              <span>17:01:54</span> / <span>0h:0m:8s+479ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 8 – Permit Details > Will I get a renewal reminder?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:01:54</span>
+                  <span class='badge badge-danger'>18-03-2026 17:02:03</span>
+                  <span class='badge badge-default'>0h:0m:8s+479ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=104</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:02:03</td>
+        <td>
+Menu: Permit Details | Submenu: Will I get a renewal reminder? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="105"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 9 – Permit Details > Can I have more than 2 resident permits?</p>
+            <p class="text-sm">
+              <span>17:02:22</span> / <span>0h:0m:8s+507ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 9 – Permit Details > Can I have more than 2 resident permits?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:02:22</span>
+                  <span class='badge badge-danger'>18-03-2026 17:02:31</span>
+                  <span class='badge badge-default'>0h:0m:8s+507ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=105</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:02:31</td>
+        <td>
+Menu: Permit Details | Submenu: Can I have more than 2 resident permits? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="106"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 10 – Parking & Zone > Do you have visitor permits?</p>
+            <p class="text-sm">
+              <span>17:02:51</span> / <span>0h:0m:8s+546ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 10 – Parking & Zone > Do you have visitor permits?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:02:51</span>
+                  <span class='badge badge-danger'>18-03-2026 17:02:59</span>
+                  <span class='badge badge-default'>0h:0m:8s+546ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=106</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:02:59</td>
+        <td>
+Menu: Parking & Zone | Submenu: Do you have visitor permits? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="107"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 11 – Permit Details > I’m moving into the area—are any permits available?</p>
+            <p class="text-sm">
+              <span>17:03:19</span> / <span>0h:0m:8s+577ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 11 – Permit Details > I’m moving into the area—are any permits available?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:03:19</span>
+                  <span class='badge badge-danger'>18-03-2026 17:03:28</span>
+                  <span class='badge badge-default'>0h:0m:8s+577ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=107</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:03:28</td>
+        <td>
+Menu: Permit Details | Submenu: I’m moving into the area—are any permits available? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="108"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 12 – Payment & Fee > Permit Cost</p>
+            <p class="text-sm">
+              <span>17:03:59</span> / <span>0h:0m:15s+151ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 12 – Payment & Fee > Permit Cost</h5>
+                  <span class='badge badge-success'>18-03-2026 17:03:59</span>
+                  <span class='badge badge-danger'>18-03-2026 17:04:15</span>
+                  <span class='badge badge-default'>0h:0m:15s+151ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=108</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:04:15</td>
+        <td>
+Menu: Payment & Fee | Submenu: Permit Cost | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="109"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 13 – Payment & Fee > Do you offer permits for less than 12 months?</p>
+            <p class="text-sm">
+              <span>17:04:46</span> / <span>0h:0m:15s+164ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 13 – Payment & Fee > Do you offer permits for less than 12 months?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:04:46</span>
+                  <span class='badge badge-danger'>18-03-2026 17:05:01</span>
+                  <span class='badge badge-default'>0h:0m:15s+164ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=109</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:05:01</td>
+        <td>
+Menu: Payment & Fee | Submenu: Do you offer permits for less than 12 months? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="110"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 14 – Permit Details > Is the permit physical or digital?</p>
+            <p class="text-sm">
+              <span>17:05:33</span> / <span>0h:0m:15s+146ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 14 – Permit Details > Is the permit physical or digital?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:05:33</span>
+                  <span class='badge badge-danger'>18-03-2026 17:05:48</span>
+                  <span class='badge badge-default'>0h:0m:15s+146ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=110</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Mar 18, 2026 17:05:48</td>
+        <td>
+Menu: Permit Details | Submenu: Is the permit physical or digital? | Result: No Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="111"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 15 – Parking & Zone > I can’t find parking nearby. Can I park on another street?</p>
+            <p class="text-sm">
+              <span>17:06:20</span> / <span>0h:0m:15s+190ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 15 – Parking & Zone > I can’t find parking nearby. Can I park on another street?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:06:20</span>
+                  <span class='badge badge-danger'>18-03-2026 17:06:35</span>
+                  <span class='badge badge-default'>0h:0m:15s+190ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=111</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:06:35</td>
+        <td>
+Menu: Parking & Zone | Submenu: I can’t find parking nearby. Can I park on another street? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="112"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 16 – Account Management > I can’t access my email. What to do?</p>
+            <p class="text-sm">
+              <span>17:07:06</span> / <span>0h:0m:15s+183ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 16 – Account Management > I can’t access my email. What to do?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:07:06</span>
+                  <span class='badge badge-danger'>18-03-2026 17:07:22</span>
+                  <span class='badge badge-default'>0h:0m:15s+183ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=112</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:07:22</td>
+        <td>
+Menu: Account Management | Submenu: I can’t access my email. What to do? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="113"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 17 – Account Management > How do I change my name on the account?</p>
+            <p class="text-sm">
+              <span>17:07:53</span> / <span>0h:0m:15s+150ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 17 – Account Management > How do I change my name on the account?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:07:53</span>
+                  <span class='badge badge-danger'>18-03-2026 17:08:08</span>
+                  <span class='badge badge-default'>0h:0m:15s+150ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=113</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:08:08</td>
+        <td>
+Menu: Account Management | Submenu: How do I change my name on the account? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="114"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 18 – Account Management > Can I update my address on the account?</p>
+            <p class="text-sm">
+              <span>17:08:40</span> / <span>0h:0m:15s+165ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 18 – Account Management > Can I update my address on the account?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:08:40</span>
+                  <span class='badge badge-danger'>18-03-2026 17:08:55</span>
+                  <span class='badge badge-default'>0h:0m:15s+165ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=114</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:08:55</td>
+        <td>
+Menu: Account Management | Submenu: Can I update my address on the account? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="115"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 19 – General > How can I contact?</p>
+            <p class="text-sm">
+              <span>17:09:27</span> / <span>0h:0m:15s+205ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 19 – General > How can I contact?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:09:27</span>
+                  <span class='badge badge-danger'>18-03-2026 17:09:42</span>
+                  <span class='badge badge-default'>0h:0m:15s+205ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=115</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:09:42</td>
+        <td>
+Menu: General | Submenu: How can I contact? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="116"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 20 – General > What is a resident permit?</p>
+            <p class="text-sm">
+              <span>17:10:13</span> / <span>0h:0m:15s+303ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 20 – General > What is a resident permit?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:10:13</span>
+                  <span class='badge badge-danger'>18-03-2026 17:10:29</span>
+                  <span class='badge badge-default'>0h:0m:15s+303ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=116</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:10:29</td>
+        <td>
+Menu: General | Submenu: What is a resident permit? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="117"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 21 – General > Are permits transferrable?</p>
+            <p class="text-sm">
+              <span>17:11:00</span> / <span>0h:0m:15s+229ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 21 – General > Are permits transferrable?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:11:00</span>
+                  <span class='badge badge-danger'>18-03-2026 17:11:15</span>
+                  <span class='badge badge-default'>0h:0m:15s+229ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=117</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:11:15</td>
+        <td>
+Menu: General | Submenu: Are permits transferrable? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="118"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OtherMenu Row 22 – General > Are permits physical or digital?</p>
+            <p class="text-sm">
+              <span>17:11:47</span> / <span>0h:0m:15s+248ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">OtherMenu Row 22 – General > Are permits physical or digital?</h5>
+                  <span class='badge badge-success'>18-03-2026 17:11:47</span>
+                  <span class='badge badge-danger'>18-03-2026 17:12:02</span>
+                  <span class='badge badge-default'>0h:0m:15s+248ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=118</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Mar 18, 2026 17:12:02</td>
+        <td>
+Menu: General | Submenu: Are permits physical or digital? | Result: Match        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>18-03-2026 16:57:45</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>18-03-2026 17:12:02</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>22</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>22</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>21</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>1</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "OtherMenu Row 1 – Permit Details > Apply for Permit":8293.6091,"OtherMenu Row 2 – Permit Details > Required Documents for Permit Application":8303.8528,"OtherMenu Row 3 – Account Management > I forgot my username and password. What now?":8230.9795,"OtherMenu Row 4 – Payment & Fee > How do I  Pay for my permit?":8262.9171,"OtherMenu Row 5 – Permit Details > How do I change my vehicle on the permit?":8264.4221,"OtherMenu Row 6 – Permit Details > Proof for New Residents":8401.654,"OtherMenu Row 7 – General > Do you have an app?":8531.0565,"OtherMenu Row 8 – Permit Details > Will I get a renewal reminder?":8479.1526,"OtherMenu Row 9 – Permit Details > Can I have more than 2 resident permits?":8507.4781,"OtherMenu Row 10 – Parking & Zone > Do you have visitor permits?":8546.9711,"OtherMenu Row 11 – Permit Details > I’m moving into the area—are any permits available?":8577.1502,"OtherMenu Row 12 – Payment & Fee > Permit Cost":15151.7206,"OtherMenu Row 13 – Payment & Fee > Do you offer permits for less than 12 months?":15164.3108,"OtherMenu Row 14 – Permit Details > Is the permit physical or digital?":15146.8612,"OtherMenu Row 15 – Parking & Zone > I can’t find parking nearby. Can I park on another street?":15190.4081,"OtherMenu Row 16 – Account Management > I can’t access my email. What to do?":15183.3764,"OtherMenu Row 17 – Account Management > How do I change my name on the account?":15150.826,"OtherMenu Row 18 – Account Management > Can I update my address on the account?":15165.3431,"OtherMenu Row 19 – General > How can I contact?":15205.3956,"OtherMenu Row 20 – General > What is a resident permit?":15303.6318,"OtherMenu Row 21 – General > Are permits transferrable?":15229.663,"OtherMenu Row 22 – General > Are permits physical or digital?":15248.7893 };
+  </script>
+  <div class="row">
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 22,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 22,
+
+passParent:22,failParent:0,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:21,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:1,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
